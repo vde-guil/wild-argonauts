@@ -1,0 +1,29 @@
+## LOCAL TEST
+### GET api/argonauts
+
+GET http://localhost:3000/api/argonauts
+Content-Type: application/json
+
+### POST api/argonaut - post a new crew member
+
+POST http://localhost:3000/api/argonaut
+Content-Type: application/json
+
+{
+  "name": "Corentin"  
+}
+
+### TEST ON DEPLOYED PROJECT
+### GET api/argonauts
+
+GET https://wild-argonaut-vde-guil.herokuapp.com/api/argonauts
+Content-Type: application/json
+
+### POST api/argonaut - post a new crew member
+
+POST https://wild-argonaut-vde-guil.herokuapp.com/api/argonaut
+Content-Type: application/json
+
+{
+  "name": "Jason"  
+}

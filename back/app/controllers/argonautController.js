@@ -28,7 +28,7 @@ const controller = {
             //everything went OK, send response
             res.status(201).json("Crew Member successfully added");
         } catch (error) { // error occured - we treat it accordingly
-            if (error.message.includes("existe déjà.")) {
+            if (error.message.includes("already exists.")) {
                 res.status(400).json("name already exists");
             } else {
                 res.status(500).json(error.message);
