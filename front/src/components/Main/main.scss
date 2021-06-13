@@ -1,0 +1,48 @@
+.main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.newMember {
+  &__title {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  &__form {
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+
+.crew {
+  width: 100%;
+  &__title {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  &__list {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    &__item {
+      //flex-grow: 1;
+      text-align: center;
+      width: 33%;
+      padding: 0.25em 0;
+    }
+  }
+}
+
+.error {
+  color: red;
+  text-align: center;
+  padding-bottom: 2rem;
+}
