@@ -28,7 +28,7 @@ let options = {
             title: 'argonaut',
             version: '1.0.0',
         },
-        host: `localhost:${PORT}`,
+        host: `https://wild-argonaut-vde-guil.herokuapp.com`,
         basePath: '/api',
         produces: [
             "application/json",
