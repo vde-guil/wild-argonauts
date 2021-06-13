@@ -63,6 +63,7 @@ const App = () => {
   }
 
   useEffect(async () => {
+    document.title = 'Argonauts';
     // we want to load the members once on componentdidmount
     getMembers();
   }, [])
