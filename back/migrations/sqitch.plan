@@ -1,0 +1,5 @@
+%syntax-version=1.0.0
+%project=wild-argonauts
+
+init 2021-06-13T14:55:28Z Valentin de Guillebon <valentin.de.guillebon@gmail.com> # argonaut table creation
+add_argonaut 2021-06-13T15:30:08Z Valentin de Guillebon <valentin.de.guillebon@gmail.com> # adding the function add_argonaut that insert an argonaut in db
