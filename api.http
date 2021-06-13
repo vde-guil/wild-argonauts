@@ -1,0 +1,13 @@
+### GET api/argonauts
+
+GET http://localhost:3000/api/argonauts
+Content-Type: application/json
+
+### POST api/argonaut - post a new crew member
+
+POST http://localhost:3000/api/argonaut
+Content-Type: application/json
+
+{
+  "name": "Corentin"  
+}
