@@ -13,7 +13,7 @@ const Main = () => {
   const [members, setMembers] = useState([]); // a place to store the members in state
   const [input, setInput] = useState(''); // input of our form for controlled field
   const [loading, setLoading] = useState(true); // loading bool initially set to true to show the spinner until we fetch the crew members
-  const [errorMsg, setErrorMsg] = useState(null);
+  const [errorMsg, setErrorMsg] = useState('');
 
   // function to update the value of our controlled field on change
   const updateInput = (newValue) => {

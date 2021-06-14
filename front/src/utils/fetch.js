@@ -36,7 +36,7 @@ export const addCrewMember = (setMembers, setLoading, setInput, setErrorMsg) => 
       // we empty the input value
       setInput('');
       // we empty the error message if there is still one from previous error
-      setErrorMsg(null);
+      setErrorMsg('');
       // we update the crew members
       await getMembers(setMembers, setLoading);
   

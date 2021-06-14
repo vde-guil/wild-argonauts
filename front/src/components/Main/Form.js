@@ -30,7 +30,7 @@ const Form = ({ formInput, handleInputChange, handleFormSubmit, errorMsg }) => (
       <button type="submit">Envoyer</button>
     </form>
     {
-      errorMsg
+      errorMsg.length > 0
       && <div className="error">{errorMsg}</div>
     }
   </div >
