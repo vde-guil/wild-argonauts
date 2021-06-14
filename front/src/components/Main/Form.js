@@ -15,21 +15,24 @@ const Form = ({ formInput, handleInputChange, handleFormSubmit, errorMsg }) => (
         handleFormSubmit(formInput);
       }}
     >
-    <label htmlFor="name">Nom de l&apos;Argonaute</label>
-    <input
-      id="name"
-      name="name"
-      type="text"
-      placeholder="Charalampos"
-      value={formInput}
-      onChange={(event) => {
-        handleInputChange(event.target.value);
-      }}
+      <label htmlFor="name">Nom de l&apos;Argonaute</label>
+      <input
+        id="name"
+        name="name"
+        type="text"
+        placeholder="Charalampos"
+        value={formInput}
+        onChange={(event) => {
+          handleInputChange(event.target.value);
+        }}
 
-    />
-    <button type="submit">Envoyer</button>
+      />
+      <button type="submit">Envoyer</button>
     </form>
-    <div className="error">{errorMsg}</div>
+    {
+      errorMsg
+      && <div className="error">{errorMsg}</div>
+    }
   </div >
 );
 
