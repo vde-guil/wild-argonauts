@@ -24,7 +24,7 @@ git clone <repo url>
 go into the clone directory then go into the front subirectory
 
 ```bash
-cd back/
+cd front/
 ```
 
 install the dependencies
